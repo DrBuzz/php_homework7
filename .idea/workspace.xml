@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7c2970d-1255-4367-9d90-c7237ac0c36e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/factories/TestFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/TestsTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Test.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -148,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576655296503</updated>
       <workItem from="1576655297620" duration="12769000" />
-      <workItem from="1576671367359" duration="16789000" />
+      <workItem from="1576671367359" duration="17140000" />
     </task>
     <servers />
   </component>
