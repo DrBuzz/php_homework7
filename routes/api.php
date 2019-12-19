@@ -21,4 +21,5 @@ Route::group(['prefix'=>'/test','middleware' => 'apikey'],function () {
     Route::get('/one', 'TestController@getOne');
     Route::post('/one', 'TestController@setOne');
     Route::get('/method77', 'TestController@method77');
+    Route::get('/method79', 'TestController@method79');
 });
