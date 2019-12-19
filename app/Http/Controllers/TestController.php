@@ -31,6 +31,10 @@ class TestController extends Controller
     public function method77(request $request){
         return response()->json(\App\Test::lookForId($request->get('id'))); //
     }
+    public function method79(request $request){
+        return response()->json(\App\Test::lookForId($request->get('id'))); //
+    }
+
 }
 
 

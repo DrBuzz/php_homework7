@@ -22,4 +22,10 @@ class Test extends Model
         else { return $a; }
         return response(500);
     }
+    public static function lookForText($s){
+        $a = Test::where('text', $s)->get();
+        if (!$a) { return null; }
+        else { return $a; }
+        return response(500);
+    }
 }
