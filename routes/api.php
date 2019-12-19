@@ -20,4 +20,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::group(['prefix'=>'/test','middleware' => 'apikey'],function () {
     Route::get('/one', 'TestController@getOne');
     Route::post('/one', 'TestController@setOne');
+    Route::get('/method77', 'TestController@method77');
 });

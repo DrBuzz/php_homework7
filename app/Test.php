@@ -18,7 +18,8 @@ class Test extends Model
     }
     public static function lookForId($p){
         $a = Test::where('id', $p)->get();
-        if (!$a) { return $a; }
-        else { return null; }
+        if (!$a) { return null; }
+        else { return $a; }
+        return response(500);
     }
 }

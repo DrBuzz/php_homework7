@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Facades\TestBasicServiceFacade;
 use Illuminate\Http\Request;
 use App\Services\TestBasicService;
+use App\Models\Test;
 
 class TestController extends Controller
 {
@@ -26,6 +27,9 @@ class TestController extends Controller
         TestBasicServiceFacade::setAge($request->get('age'));
         TestBasicServiceFacade::setSex($request->get('sex'));
         return response()->json(TestBasicServiceFacade::getOne());
+    }
+    public function method77(request $request){
+        return response()->json(\App\Test::lookForId($request->get('id'))); //
     }
 }
 
